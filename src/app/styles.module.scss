@@ -1,0 +1,109 @@
+.main {
+    margin-top: 50vh;
+    margin-bottom: 100vh;
+    
+    .container {
+        position: relative;
+        height: 300vh;
+
+        .sticky {
+            height: 100vh;
+            position: sticky;
+            top: 0;
+            overflow: hidden;
+
+            .animated_div {
+                width: 100%;
+                height: 100%;
+                top: 0;
+                position: absolute;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+
+                .image_container {
+                    position: relative;
+                    left: -1vh;
+                    width: 33vh;
+                    height: 25vh;
+
+                    img {
+                        object-fit: cover;
+                    }
+                }
+
+                &:nth-of-type(2) {
+                    .image_container {
+                        top: -31vh;
+                        left: -14vw;
+                        width: 30vh;
+                        height: 30vh;
+                    }
+                }
+                
+                &:nth-of-type(3) {
+                    .image_container {
+                        top: 10vh;
+                        left: -17vw;
+                        width: 36vh;
+                        height: 46vh;
+                    }
+                }
+
+                &:nth-of-type(4) {
+                    .image_container {
+                        top: 37vh;
+                        left: 2vw;
+                        width: 31vh;
+                        height: 42vh;
+                    }
+                }
+
+                &:nth-of-type(5) {
+                    .image_container {
+                        top: 31vh;
+                        left: 18vw;
+                        width: 31vh;
+                        height: 31vh;
+                    }
+                }
+
+                &:nth-of-type(6) {
+                    .image_container {
+                        top: -7vh;
+                        left: 17vw;
+                        width: 40vh;
+                        height: 40vh;
+                    }
+                }
+
+                &:nth-of-type(7) {
+                    .image_container {
+                        top: -28vh;
+                        left: 0vw;
+                        width: 25vh;
+                        height: 25vh;
+                    }
+                }
+
+                &:nth-of-type(8) {
+                    .image_container {
+                        top: 53vh;
+                        left: -14vw;
+                        width: 33vh;
+                        height: 33vh;
+                    }
+                }
+
+                &:nth-of-type(9) {
+                    .image_container {
+                        top: -41vh;
+                        left: 14vw;
+                        width: 30vh;
+                        height: 22vh;
+                    }
+                }
+            }
+        }
+    }
+}
